@@ -1,0 +1,615 @@
+CRITICAL - 2023-09-26 13:13:38 --> Invalid file: "student/list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/list', [], true)
+ 3 APPPATH\Controllers\Student.php(7): view('student/list')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 14:09:49 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('name', 'name', '', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Student.php(15): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 14:11:08 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('name', 'name', '', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Student.php(15): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 14:15:08 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('name', 'name', '', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Student.php(15): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 14:17:39 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('name', 'name', '', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Student.php(16): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 14:17:43 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('name', 'name', '', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Student.php(16): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 14:17:48 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('name', 'name', '', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Student.php(16): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 14:19:45 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('name', 'name', '', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Student.php(16): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:03:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail...', 'email', Array, NULL, 'email')
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail...', Array, Array)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(16): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail...', 'email', Array, NULL, 'email')
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail...', Array, Array)
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(16): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#13 {main}
+CRITICAL - 2023-09-26 15:03:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `student`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Student.php(16): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:03:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail...', 'email', Array, NULL, 'email')
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail...', Array, Array)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(16): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail...', 'email', Array, NULL, 'email')
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail...', Array, Array)
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(16): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#13 {main}
+CRITICAL - 2023-09-26 15:03:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `student`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Student.php(16): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:22:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail...', 'email', Array, NULL, 'email')
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail...', Array, Array)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(16): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail...', 'email', Array, NULL, 'email')
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail...', Array, Array)
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(16): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#13 {main}
+CRITICAL - 2023-09-26 15:22:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `student`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Student.php(16): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:25:25 --> mysqli_sql_exception: Table 'student_curd.student' doesn't exist in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail...', 'email', Array, NULL, 'email')
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail...', Array, Array)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(16): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2023-09-26 15:25:25 --> Table 'student_curd.student' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `student`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Student.php(16): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:25:44 --> mysqli_sql_exception: Table 'student_curd.student' doesn't exist in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail...', 'email', Array, NULL, 'email')
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail...', Array, Array)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(16): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2023-09-26 15:25:44 --> Table 'student_curd.student' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `student`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('mumarsk77@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mumarsk77@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Student.php(16): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:33:24 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(25): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2023-09-26 15:33:24 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`name`) VALUES (:name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Student.php(25): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:35:52 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(25): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2023-09-26 15:35:52 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`name`) VALUES (:name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Student.php(25): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:36:31 --> mysqli_sql_exception: Column 'name' cannot be null in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(25): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2023-09-26 15:36:31 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`name`) VALUES (:name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Student.php(25): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:36:46 --> mysqli_sql_exception: Column 'name' cannot be null in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(25): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2023-09-26 15:36:46 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`name`) VALUES (:name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Student.php(25): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+ERROR - 2023-09-26 15:37:52 --> mysqli_sql_exception: Column 'name' cannot be null in C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\student_curd\app\Controllers\Student.php(25): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Student->create()
+#10 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#11 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\student_curd\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\student_curd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2023-09-26 15:37:52 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`name`) VALUES (:name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Student.php(25): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->create()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 16:44:04 --> Undefined variable $data
+in APPPATH\Views\students\list.php on line 78.
+ 1 APPPATH\Views\students\list.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp1\\htdocs\\student_curd\\app\\Views\\students\\list.php', 78)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\student_curd\\app\\Views\\students\\list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/list', [], true)
+ 5 APPPATH\Controllers\Student.php(10): view('students/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 16:49:13 --> Call to undefined method App\Models\StudentModel::geRecords
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Student.php(8): CodeIgniter\Model->__call('geRecords', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 16:49:23 --> Undefined variable $data
+in APPPATH\Views\students\list.php on line 78.
+ 1 APPPATH\Views\students\list.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp1\\htdocs\\student_curd\\app\\Views\\students\\list.php', 78)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\student_curd\\app\\Views\\students\\list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/list', [], true)
+ 5 APPPATH\Controllers\Student.php(10): view('students/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 16:49:24 --> Undefined variable $data
+in APPPATH\Views\students\list.php on line 78.
+ 1 APPPATH\Views\students\list.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp1\\htdocs\\student_curd\\app\\Views\\students\\list.php', 78)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\student_curd\\app\\Views\\students\\list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/list', [], true)
+ 5 APPPATH\Controllers\Student.php(10): view('students/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 17:57:43 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\Student.php on line 52.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp1\\htdocs\\student_curd\\app\\Controllers\\Student.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Student')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Student')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Student', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 18:20:06 --> Undefined variable $student
+in APPPATH\Views\students\edit.php on line 31.
+ 1 APPPATH\Views\students\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'C:\\xampp1\\htdocs\\student_curd\\app\\Views\\students\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp1\\htdocs\\student_curd\\app\\Views\\students\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/edit', [], true)
+ 5 APPPATH\Controllers\Student.php(83): view('students/edit', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 18:57:15 --> Invalid file: "student/read/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/read/.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/read/', [], true)
+ 3 APPPATH\Controllers\Student.php(107): view('student/read/')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->read('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 18:59:33 --> Invalid file: "student/read.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/read.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/read', [], true)
+ 3 APPPATH\Controllers\Student.php(107): view('student/read')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->read('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 18:59:34 --> Invalid file: "student/read.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/read.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/read', [], true)
+ 3 APPPATH\Controllers\Student.php(107): view('student/read')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->read('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 18:59:35 --> Invalid file: "student/read.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/read.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/read', [], true)
+ 3 APPPATH\Controllers\Student.php(107): view('student/read')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->read('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 18:59:35 --> Invalid file: "student/read.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/read.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/read', [], true)
+ 3 APPPATH\Controllers\Student.php(107): view('student/read')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->read('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 19:00:22 --> Invalid file: "student/read.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/read.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/read', [], true)
+ 3 APPPATH\Controllers\Student.php(103): view('student/read')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->read('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 19:00:23 --> Invalid file: "student/read.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/read.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/read', [], true)
+ 3 APPPATH\Controllers\Student.php(103): view('student/read')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->read('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 19:00:23 --> Invalid file: "student/read.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/read.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/read', [], true)
+ 3 APPPATH\Controllers\Student.php(103): view('student/read')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->read('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
+CRITICAL - 2023-09-26 19:00:23 --> Invalid file: "student/read.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/read.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student/read', [], true)
+ 3 APPPATH\Controllers\Student.php(103): view('student/read')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Student->read('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp1\\htdocs\\student_curd\\public\\index.php')
